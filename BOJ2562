@@ -1,6 +1,0 @@
-num = [int(input()) for i in range(9)]
-order=0
-for i in num:
-    order+=1
-    if i==max(num):
-        print(max(num),order)
