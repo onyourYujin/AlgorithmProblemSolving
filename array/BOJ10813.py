@@ -1,9 +1,9 @@
-N,M=map(int,input().split())
-basket = [i for i in range(1,N+1)]
+#바구니 개수 M, 공 번호 M
+N,M=map(int,input().split(' '))
+basket=[str(i+1) for i in range(N)]
 
-for i in range(M):
-    a,b=map(int,input().split())
-    ball=basket[b-1]
-    basket[b-1]=basket[a-1]
-    basket[a-1]=ball
-print(basket)
+for exchange in range(M):
+    i,j=map(int,input().split(' '))
+    basket[i-1],basket[j-1]=basket[j-1],basket[i-1]
+
+print(' '.join(basket))
