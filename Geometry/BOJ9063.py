@@ -1,10 +1,8 @@
-import sys
-
-input = sys.stdin.readline
-x_lst = []
-y_lst = []
-for _ in range(int(input())) :
-    x, y = map(int, input().split())
-    x_lst.append(x)
-    y_lst.append(y)
-print((max(x_lst) - min(x_lst)) * (max(y_lst) - min(y_lst)))
+n=int(input())
+width = []
+length = []
+for i in range(n):
+    a,b = map(int,input().split())
+    width.append(a)
+    length.append(b)
+print((max(width)-min(width))*(max(length)-min(length)))
