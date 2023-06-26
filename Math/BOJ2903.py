@@ -1,1 +1,3 @@
-print((2**int(input())+1)**2)
+n = int(input())
+cnt = 1 + n**2
+print(cnt**2)
