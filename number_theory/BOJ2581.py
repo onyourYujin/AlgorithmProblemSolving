@@ -1,6 +1,6 @@
 m=int(input())
 n=int(input())
-li=[]
+list=[]
 for i in range(m,n+1):
     e=0
     if i>1:
