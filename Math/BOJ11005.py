@@ -8,7 +8,7 @@ while True:
     li.append(a)
     N=int(N) // int(B)
 
-    if N == 0: # 이 if문 필요한 지 체크
+    if N == 0: 
         break
 for i in li:
     for j in base:
