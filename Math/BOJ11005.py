@@ -1,12 +1,11 @@
-N,B = input().split()
+N,B = map(int,input().split())
 base = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 li=[]
 new_li=[]
 
 while True:
-    a=int(N) % int(B)
-    li.append(a)
-    N=int(N) // int(B)
+    li.append(N%B)
+    N=N//B
 
     if N == 0: 
         break
