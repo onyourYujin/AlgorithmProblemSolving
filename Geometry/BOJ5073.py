@@ -1,4 +1,4 @@
-while True:
+while 1:
     triangle = list(map(int,input().split()))
     triangle.sort() 
     a=triangle[0]
