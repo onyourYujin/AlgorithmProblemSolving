@@ -6,5 +6,5 @@ for i, x in enumerate(N):
         if x == y:
             cnt=j
             break
-    res+=cnt*(int(B) ** (len(N)-i-1))
+    result+=cnt*(int(B) ** (len(N)-i-1))
 print(result)
