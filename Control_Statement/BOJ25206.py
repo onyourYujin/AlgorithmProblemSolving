@@ -3,7 +3,7 @@ sum = 0
 result = 0
 for x in range(20):
     subject, score, grade = input().split()
-    if grade == "P":
+    if grade == "Pass":
         pass
     else:
         sum +=float(score)
