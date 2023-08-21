@@ -1,5 +1,5 @@
 N = int(input())
-for x in range(N):
+for _ in range(N):
     word = input()
     for y in range(len(word)-1):
         if word[y] == word[y+1]:
