@@ -1,5 +1,5 @@
 N = int(input())
-for i in range(N):
+for _ in range(N):
     change = int(input())
     a=change//25
     b=(change-(a*25))//10
