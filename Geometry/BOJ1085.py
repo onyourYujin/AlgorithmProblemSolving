@@ -1,3 +1,3 @@
 x,y,w,h = map(int,input().split())
-li = [(w-x),(h-y),x,y]
-print(min(li))
+list = [(w-x),(h-y),x,y]
+print(min(list))
