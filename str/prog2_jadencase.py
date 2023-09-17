@@ -1,6 +1,6 @@
 def solution(s):
     words = s.split(" ")
-    new_words = []
+    new_word = []
     for word in words:
-        new_words.append(word.capitalize())
-    return ' '.join(new_words)
+        new_word.append(word.capitalize())
+    return ' '.join(new_word)
