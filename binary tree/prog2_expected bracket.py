@@ -5,13 +5,13 @@ def solution(n,a,b):
     arr[b-1] = 1
     cnt = 0
     
-    while n>1: # 변경하기
+    while n > 1:  # 변경하기
         for i in range(n)[::2]:
             a_sum = arr[i]+arr[i+1]
             if a_sum == 2:
                 break
-        cnt+=1
-        n=int(n/2)
+        cnt += 1
+        n = int(n/2)
     return cnt
 
 # ===============================================================================
