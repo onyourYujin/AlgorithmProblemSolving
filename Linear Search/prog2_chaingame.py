@@ -5,4 +5,3 @@ def solution(n,words):
             repeat.append(words[i])
         else:
             return [(i%n)+1, (i//n)+1]
-    return [0, 0]
