@@ -1,4 +1,4 @@
-# LRU(Least Recently Used) 알고리즘
+# LRU(Least Recently Used)
 def solution(cacheSize, cities):
     cache = []
     time = 0
