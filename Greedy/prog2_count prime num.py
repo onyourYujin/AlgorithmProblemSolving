@@ -18,7 +18,7 @@ def to_k(n, k):
 def solution(n, k):
     answer = 0
     k_num = to_k(n, k)
-    for n in k_num.split('0'):
+    for n in k_num.split("0"):
         if n == "": 
             continue
         if is_prime(int(n)):
