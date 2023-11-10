@@ -1,4 +1,4 @@
-# 시간 초과
+# 시간 초과, 2중 for문
 def solution(prices):
     answer = [0] * len(prices)
     for i in range(len(prices)):
