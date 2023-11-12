@@ -9,7 +9,7 @@ def numeral(n, b):
     return s[::-1]
 
 def solution(n, t, m, p):
-    answer = ''  # len(answer) == t
+    answer = ''  
     change = ''
     i = 0
     while True:
