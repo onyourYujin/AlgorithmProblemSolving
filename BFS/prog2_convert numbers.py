@@ -1,7 +1,6 @@
 def solution(x, y, n):
     answer = 0
-    s = set()
-    s.add(x)
+    s = {x}  # or s = set(), s.add(x)
     
     while s:
         if y in s:
