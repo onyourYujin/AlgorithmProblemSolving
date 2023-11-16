@@ -1,4 +1,4 @@
-def solutin(s):
+def solution(s):
     words = s.split(" ")
     new_word = []
     for word in words:
