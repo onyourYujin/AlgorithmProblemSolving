@@ -5,6 +5,6 @@ def solution(numbers):
     return str(int("".join(sorted_num)))
 # ========================================================================================
 def solution(numbers):
-    num_lst = list(map(str,numbers))
-    num_lst.sort(key=lambda x: x*3, reverse = True)
-    return str(int("".join(num_lst)))
+    sorted_num = list(map(str,numbers))
+    sorted_num.sort(key=lambda x: x*3, reverse = True)
+    return str(int("".join(sorted_num)))
