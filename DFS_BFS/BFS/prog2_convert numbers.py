@@ -1,4 +1,4 @@
-# 1. set으로 푸는 방법(시간 복잡도 : )
+# 1. set으로 푸는 방법
 def solution(x, y, n):
     answer = 0
     s = {x}  # or s = set(), s.add(x)
@@ -20,7 +20,7 @@ def solution(x, y, n):
     return -1
 
 # ==================================================================================
-# 2. BFS로 푸는 방법(시간 복잡도: )
+# 2. BFS로 푸는 방법
 from collections import deque
 
 def solution(x,y,n):
@@ -31,10 +31,10 @@ def solution(x,y,n):
     while queue:
         i,j = queue.popleft()
         if i in visited:
-            continue  # 이거 좀 이상함
+            continue 
         if i == y:
             return j
         for s in (i+n, i*2, i*3):
-            if i <= y and i not in visited:
+            if s <= y and s not in visited:
                 queue.append(s)
     return -1
