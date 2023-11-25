@@ -1,7 +1,7 @@
 # 1. set으로 푸는 방법
 def solution(x, y, n):
     answer = 0
-    s = {x}  # or s = set(), s.add(x)
+    s = {x} 
     
     while s:
         if y in s:
