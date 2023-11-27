@@ -9,7 +9,7 @@ def is_prime(num):
     return True
 
 from itertools import permutations
-def solution(numbers):  # str type
+def solution(numbers):  # type(numbers) = str
     answer = []
     nums = numbers.split()
     prime = list(permutations(nums,2))
