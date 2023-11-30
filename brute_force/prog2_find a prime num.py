@@ -23,13 +23,13 @@ def solution(numbers):  # type(numbers) = str
 # =================================================================================================================
 from itertools import permutations
 def solution(numbers):
-    answer = []
+    answer = set()
     nums = [n for n in numbers]  # nums = numers.split()
     per = []
     for i in range(1,len(numbers)+1):
-        per+=list(permutations(nums,i))
+        per+=list(permutations(nums,i))  # iterable한 객체로 변환 필요
     new_nums = [int(("").join(p)) for p in per]
     for i in new_nums:
         if is_prime(i):
-            answer.append(i)
-    return len(set(answer))
+            answer.add(i)
+    return len(answer)
