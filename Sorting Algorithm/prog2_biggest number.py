@@ -6,5 +6,5 @@ def solution(numbers):
 # ========================================================================================
 def solution(numbers):
     sorted_num = list(map(str, numbers))
-    sorted_num.sort(key=lambda x: x*3, reverse=True)  # str 비교할 때, 각 자리의 문자를 비교하면서 판단
+    sorted_num.sort(key=lambda x: x*3, reverse=True)  # str 비교할 때, 각 자리의 문자를 비교, 판단
     return str(int("".join(sorted_num)))
