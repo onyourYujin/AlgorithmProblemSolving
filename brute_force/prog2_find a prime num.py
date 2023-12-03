@@ -24,7 +24,7 @@ def solution(numbers):  # type(numbers) = str
 from itertools import permutations
 def solution(numbers):
     answer = set()
-    nums = [n for n in numbers]  # nums = numers.split()
+    nums = [n for n in numbers]  # nums = numers.split() 와 다른 것
     per = []
     for i in range(1,len(numbers)+1):
         per+=list(permutations(nums,i))  # iterable한 객체로 변환 필요
