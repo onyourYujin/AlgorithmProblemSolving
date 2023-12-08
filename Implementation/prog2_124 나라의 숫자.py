@@ -17,7 +17,7 @@ def solution(n):
     while n > 0:
         if n % 3 == 0:
             answer += '4'  # 마지막에도 몫은 추가하지 않고 나머지만 추가
-            n = n//3 - 1
+            n = n//3 - 1  # 1,2,4만 있어야 하기 때문에
         else:
             answer += str(n%3)
             n //= 3
