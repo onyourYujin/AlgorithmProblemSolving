@@ -1,9 +1,9 @@
 # 정확도 낮은 코드
 def is_prime(num):
     num = int(num)
-    if num<2:
+    if num < 2:
         return False
-    for i in range(2,int(num**0.5)+1):
+    for i in range(2, int(num**0.5)+1):
         if num % i == 0:
             return False
     return True
