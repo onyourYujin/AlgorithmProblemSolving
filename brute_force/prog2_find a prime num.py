@@ -1,4 +1,3 @@
-# 정확도 낮은 코드
 def is_prime(num):
     num = int(num)
     if num < 2:
