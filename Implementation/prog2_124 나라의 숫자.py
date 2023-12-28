@@ -1,4 +1,4 @@
-# 실패한 코드
+# 실패
 def solution(n):
     answer = ''
     while n > 0:
